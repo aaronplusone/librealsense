@@ -15,6 +15,10 @@
 
 #pragma GCC diagnostic ignored "-Woverflow"
 
+#ifndef MAX_INPUT
+#define MAX_INPUT _POSIX_MAX_INPUT
+#endif
+
 const size_t MAX_DEV_PARENT_DIR = 10;
 
 const uint8_t HID_METADATA_SIZE = 8;     // bytes
