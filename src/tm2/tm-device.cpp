@@ -13,6 +13,7 @@
 #include "media/playback/playback_device.h"
 #include "media/ros/ros_reader.h"
 #include "usb/usb-enumerator.h"
+#include <endian.h>
 
 // uncomment to get debug messages at info severity
 //#undef LOG_DEBUG
